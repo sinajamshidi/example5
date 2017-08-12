@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#75c5f4"
+    android:padding="16dp"
+    tools:context="com.example.asus.example5.Main2Activity">
+<TextView
+android:layout_marginTop="30dp"
+    android:textSize="20sp"
+    android:id="@+id/result"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_centerHorizontal="true"
+
+android:src="@drawable/charging"
+        android:layout_marginTop="130dp"
+        android:layout_width="150dp"
+        android:layout_height="80dp" />
+    <TextView
+        android:layout_marginTop="230dp"
+        android:textSize="20sp"
+        android:text=" Today's weather in Tehran:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tehran"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:layout_width="160dp"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:textSize="25sp"
+
+        android:id="@+id/max"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
